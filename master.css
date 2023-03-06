@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+.container {
+  width: 90%;
+  margin: auto;
+  background-color: #eee;
+  padding: 20px;
+
+  margin: auto;
+}
+.container .repo {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 20px 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.container .repo input {
+  flex: 1;
+  margin-right: 10px;
+  padding: 10px 5px;
+  outline: none;
+  border: none;
+  background-color: #efefef;
+  color: #0075ff;
+  font-size: 18px;
+  border-bottom: 1px solid #0075ff;
+}
+.container .repo button {
+  color: #0075ff;
+  outline: none;
+  border: 1px solid #0075ff;
+  padding: 0 15px;
+  cursor: pointer;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.container .repo button:not(.search) {
+  margin-right: 10px;
+}
+.container .repo button:hover {
+  color: white;
+  background-color: #0075ff;
+}
+.container .result > div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  margin-bottom: 10px;
+  font-size: 22px;
+  color: white;
+  background-color: #0075ff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.container .result div p {
+  flex: 1;
+}
+.container .result div span,
+.container .result div a {
+  padding: 10px 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.container .result div span {
+  margin-right: 10px;
+  background-color: #e91e63;
+}
+.container .result div a {
+  background-color: #009688;
+  color: white;
+  text-decoration: none;
+}
